@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Clock</title>
+        <link href="resources/style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>Pomodoro Clock</header>
+        <div id="wrapper">
+            <div id="workTime">
+                <h1>Work Time</h1>
+                <button id="timeUp" onclick="increaseTime()">&#x25B2;</button>
+                <div id="workDisplay">25:00</div>
+                <button id="timeDown" onclick="decreaseTime()">&#x25BC;</button>
+            </div>
+            <div id="restTime">
+                <h1>Rest Time</h1>
+                <button id="timeUp" onclick="increaseTime()">&#x25B2;</button>
+                <div id="restDisplay">5:00</div>
+                <button id="timeDown" onclick="decreaseTime()">&#x25BC;</button>
+            </div>
+        </div>
+        <div id="fncBtn">
+            <button id="start" onclick="show(0)">Start</button>
+            <button id="stop" onclick="reset()">Reset</button>
+        </div>
+        
+
+        <script src="..\pomodoro-clock\resources\script.js"></script>
+        <footer>
+            <div>
+                <h5><span class="copyrightFont">&copy; 2019 Duy Lai | Learn more about the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a></span></h5><br/>
+                </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body {
+    background: url("../resources/wallTree.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 850px;
+}
+
+#workTime, #restTime {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+#workTime h1, #restTime h1{
+    color: #d6d8de;
+    text-shadow: 3px 3px black;
+    cursor: default;
+}
+
+#workDisplay, #restDisplay {
+    color: #d6d8de;
+    font-size: 35px;
+    text-shadow: 3px 3px black;
+    cursor: default;
+}
+
+#timeUp, #timeDown{
+    width: 50px; height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 3px 3px black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#fncBtn {
+    margin: 250px auto;
+    width: 350px;
+}
+
+#fncBtn #start, #fncBtn #stop {
+    font-size: 25px;
+    color: #d6d8de;
+    text-shadow: 3px 3px black;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    color: grey;
+    text-shadow: 3px 3px black;
+    bottom: 0;
+    clear: both;
+    background: transparent;
+    padding: 20px 20px 0px 20px;
+    font-size: 20px; 
+}
