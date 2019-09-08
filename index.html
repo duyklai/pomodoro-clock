@@ -9,20 +9,20 @@
         <header>Pomodoro Clock</header>
         <div id="wrapper">
             <div id="workTime">
-                <h1>Work Time</h1>
-                <button id="timeUp" onclick="increaseTime()">&#x25B2;</button>
+                <h1>Work Time</h1><br/><br/><br/>
+                <button id="timeUp" onclick="changeTime('up', this)">&#x25B2;</button>
                 <div id="workDisplay">25:00</div>
-                <button id="timeDown" onclick="decreaseTime()">&#x25BC;</button>
+                <button id="timeDown" onclick="changeTime('down', this)">&#x25BC;</button><br/><br/><br/><br/><br/>
             </div>
             <div id="restTime">
-                <h1>Rest Time</h1>
-                <button id="timeUp" onclick="increaseTime()">&#x25B2;</button>
+                <h1>Rest Time</h1><br/><br/><br/>
+                <button id="timeUp" onclick="changeTime('up', this)">&#x25B2;</button>
                 <div id="restDisplay">5:00</div>
-                <button id="timeDown" onclick="decreaseTime()">&#x25BC;</button>
+                <button id="timeDown" onclick="changeTime('down', this)">&#x25BC;</button><br/><br/><br/><br/><br/>
             </div>
         </div>
         <div id="fncBtn">
-            <button id="start" onclick="show(0)">Start</button>
+            <button id="start" onclick="startTimer()">Start</button>
             <button id="stop" onclick="reset()">Reset</button>
         </div>
         
